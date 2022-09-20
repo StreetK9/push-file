@@ -1,0 +1,28 @@
+function isImageFileExtension(fileName) {
+    if (fileName===null || fileName===undefined) {
+        return false
+    }
+    if (fileName.includes("jpeg")) return true
+    if (fileName.includes("jpg")) return true
+    if (fileName.includes("gif")) return true
+    if (fileName.includes("svg")) return true
+    if (fileName.includes("png")) return true
+    if (fileName.includes("doc")) return false
+    if (fileName.includes("pdf")) return false
+    /*
+    if (fileName.endsWith("jpeg")) return true
+    if (fileName.endsWith("jpg")) return true
+    if (fileName.endsWith("gif")) return true
+    if (fileName.endsWith("svg")) return true
+    if (fileName.endsWith("png")) return true
+    if (fileName.endsWith("doc")) return false
+    if (fileName.endsWith("pdf")) return false
+    */
+}
+
+console.log(isImageFileExtension('sample.jpeg'))
+console.log(isImageFileExtension('myPic.jpg'))
+console.log(isImageFileExtension('product.gif'))
+console.log(isImageFileExtension('img.svg'))
+console.log(isImageFileExtension('student.png'))
+console.log(isImageFileExtension('x.doc'))
