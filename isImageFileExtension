@@ -26,3 +26,5 @@ console.log(isImageFileExtension('product.gif'))
 console.log(isImageFileExtension('img.svg'))
 console.log(isImageFileExtension('student.png'))
 console.log(isImageFileExtension('x.doc'))
+
+/*dvdv*/
